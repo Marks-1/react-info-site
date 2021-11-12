@@ -41,9 +41,13 @@ nav {
 }
 
 main {
-    background: right / contain no-repeat url(../src/components/logo192.png), #282D35 100%;
+    background: right 75% / contain no-repeat #282D35 url(../src/components/images/logo192.png);
     padding: 57px 27px;
     color: #fff;
+
+    /* background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%; */
 }
 
 .main--title {
