@@ -3,8 +3,14 @@ import React from 'react'
 function MainContent() {
     return (
         <main>
-            <h1>Heading one for the main content</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt quasi veniam ad dolor obcaecati, accusantium sunt nesciunt voluptates dicta at id laudantium! Laborum, eveniet. Cumque voluptatum consectetur dolor reiciendis.</p>
+            <h1 className="main--title">Fun facts about React</h1>
+            <ul className="main--facts">
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100K stars on GitHub</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
         </main>
     )
 }
